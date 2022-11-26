@@ -14,9 +14,12 @@ btn.addEventListener("click", () => { // Klikom na dugme addEventListener ce se 
     for(let i = 0; i < 6; i++) {
         hexColor += hex[randomChangeColor()];
     }
-    document.body.style.background = hexColor;
-    document.body.style.transition = "1s";
-    color.innerHTML = hexColor;
+    document.body.style.background = hexColor; // Promena boje na stranici
+    // Changing the color on the page
+    document.body.style.transition = "1s"; // Boja ce se menjati blagim prelazom nakon jedne sekunde
+    // The color will change with a slight transition after one second
+    color.innerHTML = hexColor; // Boja ce se ispisivati na stranici
+    // The color will be written on the page
 });
 
 
