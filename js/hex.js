@@ -19,7 +19,7 @@ btn.addEventListener("click", () => { // Klikom na dugme addEventListener ce se 
     document.body.style.transition = "1s"; // Boja ce se menjati blagim prelazom nakon jedne sekunde
     // The color will change with a slight transition after one second
     color.innerHTML = hexColor; // Boja ce se ispisivati na stranici
-    // The color will be written on the page
+    // The color will be written on the page`
 });
 
 
